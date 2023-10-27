@@ -1,0 +1,21 @@
+nav {
+  margin-left: 5%;
+}
+.navbarHeaderText {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+.navbarHeaderText:hover {
+  border-bottom: 2px solid #c8c81c;
+}
+.selectedNavbarHeaderText {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 0 5px;
+  margin: 0 5px;
+  border-bottom: 2px solid #c8c81c;
+}
