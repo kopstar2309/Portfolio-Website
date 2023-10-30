@@ -1,21 +1,47 @@
-nav {
-  margin-left: 5%;
+.header {
+  height: 7vh;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.navbarHeaderText {
+.hamburger-react {
+  font-size: 2px; /* Default size for smaller screens */
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  left: 0;
+  width: 20%;
+  height: 88vh;
+  background-color: rgb(3, 3, 3);
+  color: #f56539;
+  padding: 20px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.navbarContent {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  border-color: #f56539;
+  border-width: 2px;
+  border-style: solid;
   text-decoration: none;
-  color: black;
-  font-weight: 500;
-  padding: 0 5px;
-  margin: 0 5px;
+  color: inherit;
 }
-.navbarHeaderText:hover {
-  border-bottom: 2px solid #c8c81c;
+@media (min-width: 769px) {
+  /* .hamburger-react {
+    font-size: 32px;
+  } */
 }
-.selectedNavbarHeaderText {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-  padding: 0 5px;
-  margin: 0 5px;
-  border-bottom: 2px solid #c8c81c;
+
+@media (min-width: 1025px) {
+  /* .hamburger-react {
+    font-size: 48px; 
+  } */
 }

@@ -1,9 +1,11 @@
 import React from "react";
-import About from "../components/About/About";
-export default function Navbar() {
+import Navbar from "../components/Navbar/Navbar";
+// import About from "../components/About/About";
+export default function MainScreen() {
   return (
-    <main>
-      <About />
-    </main>
+    <div>
+      <Navbar />
+      {/* <About /> */}
+    </div>
   );
 }
