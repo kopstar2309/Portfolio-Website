@@ -1,16 +1,8 @@
-import React from "react";
-// import MainScreen from "./screen/MainScreen";
-import Navbar from "./components/Navbar/Navbar";
-import "./App.css";
+import React from 'react'
+import MainScreen from './screen/MainScreen'
+import './App.css'
 function App() {
-  return (
-    <main>
-      <header>
-        <Navbar />
-      </header>
-      <footer>{/* <MainScreen /> */}</footer>
-    </main>
-  );
+  return <MainScreen />
 }
 
-export default App;
+export default App
