@@ -1,8 +1,7 @@
-import React from 'react'
-import MainScreen from './screen/MainScreen'
-import './App.css'
+import React from "react";
+import MainScreen from "./screen/MainScreen";
+import "./App.css";
 function App() {
-  return <MainScreen />
+  return <MainScreen />;
 }
-
-export default App
+export default App;
